@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../public/index.css" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+		rel="stylesheet">
+</head>
+
+<body>
+	<div class="content">
+		<h1>Perfil</h1>
+		<div class="perfil">
+			<div class="foto-perfil">
+				<img src="../public/pfp.jpg" />
+			</div>
+			<div class="info">
+				<table class="info-class">
+					<tr>
+						<td class="campo">Usuario</td>
+						<td id="user-space" class="cuenta-dato">{{.Usuario}}</td>
+					</tr>
+					<tr>
+						<td class="campo">Email</td>
+						<td id="mail-space" class="cuenta-dato">{{.Email}}</td>
+					</tr>
+					<tr>
+						<td class="campo">Título</td>
+						<td id="title-space" class="cuenta-dato">{{.Titulo}}</td>
+					</tr>
+				</table>
+				<table class="logros">
+					<th>Logros</th>
+				</table>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>

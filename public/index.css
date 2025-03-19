@@ -1,0 +1,109 @@
+* {
+	font-family: "PT Sans", sans-serif;
+}
+
+html,
+body {
+	background-color: #E43F6F;
+	height: 100%;
+}
+
+.content {
+	background-color: #F56476;
+	margin: 50px 20px 15px 20px;
+	height: 100%;
+	border-radius: 15px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 5px 5px 15px;
+}
+
+.content h1 {
+	font-size: 50px;
+	font-style: italic;
+}
+
+.foto-perfil img {
+	border-radius: 50%;
+	height: 100%;
+	flex-basis: 100%;
+	box-shadow: 5px 5px 15px;
+	transition: 0.3s;
+}
+
+.foto-perfil img:hover {
+	transform: scale(1.03);
+	box-shadow: 10px 10px 25px;
+}
+
+.perfil {
+	background-color: #DFBBB1;
+	padding: 15px 0 15px 0;
+	display: flex;
+	height: 80%;
+	width: 80%;
+	align-items: center;
+	justify-content: flex-start;
+	border-radius: 15px;
+	box-shadow: 5px 5px 15px;
+}
+
+.perfil .foto-perfil {
+	margin: 0 0 0 50px;
+	display: flex;
+	height: 75%;
+	flex-basis: 35%;
+}
+
+.info-class {
+	margin: 0 0 0 30px;
+	border-radius: 15px;
+	height: 75%;
+	width: 150%;
+	flex-basis: 35%;
+	font-size: 30px;
+}
+
+.info-class tr {
+	height: 100px;
+	border: 1px solid;
+}
+
+
+.campo {
+	background-color: #F56476;
+	border-radius: 15px;
+	text-align: center;
+	border: 1px solid;
+}
+
+.cuenta-dato:hover {
+	background-color: #008DD5;
+	box-shadow: 5px 5px 15px;
+	transform: scale(1.05);
+
+}
+
+.cuenta-dato {
+	text-align: center;
+	border: 1px solid;
+	border-radius: 15px;
+	transition: 0.3s;
+	cursor: pointer;
+}
+
+.logros {
+	margin: 30px 0 0 30px;
+	border: 1px solid;
+	border-radius: 15px;
+	height: 75%;
+	width: 150%;
+	flex-basis: 35%;
+	font-size: 30px;
+}
+
+.info-class tr {
+	height: 100px;
+}
